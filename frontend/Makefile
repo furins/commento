@@ -6,7 +6,7 @@ devel:
 	$(GULP) devel
 
 prod:
-	yarn install
+	yarn install --network-timeout 1000000
 	$(GULP) prod
 
 clean:
